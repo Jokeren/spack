@@ -18,6 +18,7 @@ class Hpctoolkit(AutotoolsPackage):
     git      = "https://github.com/HPCToolkit/hpctoolkit.git"
 
     version('develop', branch='master')
+    version('gpu', branch='ompt-device-cfg')
     version('2018.12.28', commit='8dbf0d543171ffa9885344f32f23cc6f7f6e39bc')
     version('2018.11.05', commit='d0c43e39020e67095b1f1d8bb89b75f22b12aee9')
 
