@@ -390,3 +390,9 @@ packages:
   # gcc:
   #   version:  [7.3.0, 6.4.0, 5.5.0, 4.8.4]
 
+  gcc:
+    modules:
+      gcc@7.3.1:  gcc/7.3.1
+    buildable: False
+
+
