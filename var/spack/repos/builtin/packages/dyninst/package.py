@@ -45,8 +45,7 @@ class Dyninst(CMakePackage):
 
     # Dyninst uses elfutils starting with 9.3.0, and used libelf
     # before that.
-    depends_on('elfutils', type='link', when='@9.3.0:')
-    depends_on('libelf', type='link', when='@:9.2.99')
+    depends_on('elfutils')
 
     # Dyninst uses libdw from elfutils starting with 10.0, and used
     # libdwarf before that.
