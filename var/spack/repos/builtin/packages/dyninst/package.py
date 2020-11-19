@@ -12,10 +12,11 @@ class Dyninst(CMakePackage):
     are executing without recompiling, re-linking, or re-executing."""
 
     homepage = "https://dyninst.org"
-    git      = "https://github.com/dyninst/dyninst.git"
+    git      = "https://github.com/Jokeren/dyninst.git"
     maintainers = ['hainest']
 
     version('master', branch='master')
+    version('cgo', tag='cgo')
     version('10.2.1', tag='v10.2.1')
     version('10.2.0', tag='v10.2.0')
     version('10.1.0', tag='v10.1.0')
